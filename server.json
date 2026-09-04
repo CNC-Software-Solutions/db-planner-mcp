@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.dbplanner/db-planner",
+  "description": "Read and edit DB Planner database schemas, diagrams and board layouts as an AI agent.",
+  "version": "1.0.1",
+  "websiteUrl": "https://dbplanner.io/features",
+  "repository": {
+    "url": "https://github.com/CNC-Software-Solutions/db-planner-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dbplanner.io/mcp"
+    }
+  ]
+}
